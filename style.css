@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Yesteryear&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    background-color: #303135;
+    padding: 0 10% 0 10%;
+    font-family: 'Playpen Sans', cursive;
+    z-index: -999;
+}
+
+.nav{
+    width: 80vmax;
+    padding: 2vw 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FEFFFF;
+    /* background-color: red; */
+}
+
+.logo{
+    font-family: 'Yesteryear', cursive;
+    font-size: 3vw;
+    font-weight: 900;
+    color: #B89D87;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav li{
+    list-style: none;
+    margin-right: 2vmax;
+    font-size: .9vmax;
+    /* font-family: 'Playpen Sans', cursive; */
+    /* text-transform: capitalize; */
+}
+
+button{
+    background-color: #49494F; 
+    border: none; 
+    color: #fff; 
+    padding:.6vmax 2vmax ;
+    font-size: .9vmax; 
+    text-align: center; 
+    transform: skew(-25deg);
+    font-family: 'Playpen Sans', cursive;
+}
+
+.col{
+    background-color: #B89D87;
+    margin-left: 15vw;
+}
+
+button span{
+    transform: skew(25deg);
+    display: block;
+}
+
+p{
+    margin:3vw 0 0 15vw;
+    font-size: .9vmax;
+    color:#B89D87 ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h1{
+    margin:1vw 0 3.5vw 15vw ;
+    width: 25vmax;
+    /* background-color: red; */
+    /* text-transform: capitalize; */
+    line-height:3.5vmax;
+    font-size: 3vmax;
+    color: #FEFFFF;
+    z-index: 111;
+    position: relative;
+}
+
+
+
+.rotate{
+    transform: rotate(-90deg);
+    transform-origin:center center ;
+    position: absolute;
+    top: 30vw;
+    left: 8vw;
+}
+
+.page1bg{
+    width: 100%;
+    height:36vh ;
+    background-color: #19191A;
+    margin-top: 20vh;
+}
+
+.page1-img{
+    width: 55vw;
+    height: 43.5vw;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1560785219-7140fb4feba7?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   left: 34vw;
+    top: 15vh;
+    border-radius: 2px;
+}
+
+.page1-img1{
+    width: 17vw;
+    height: 44vh;
+    position: absolute;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1624138592060-6a6790a8c979?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 45vh;
+    left: 16vw;
+    border-radius: 2px;
+}
+
+.card{
+    width: 17vw;
+    height: 33vh;
+    background-color: #19191A;
+    /* background-color: red; */
+    padding: 1.5vw  2vw;
+    position: absolute;
+    /* z-index: 33; */
+}
+
+#card1{
+    top: 56vh;
+    left: 26vw;
+}
+
+.card p{
+    margin:0;
+}
+
+.card h2{
+    color: #FEFFFF;
+    font-size: 1.3vmax;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 1.5vmax 0 ;
+}
+
+.white{
+    color: #FEFFFF ;
+    text-transform:lowercase ;
+    font-size: .7vmax ;
+    letter-spacing: 1px;
+}
+
+.page2-img{
+    display: flex;
+    padding: 0 12vw;
+}
+
+.img{
+    width: 28vw;
+    height: 28vw;
+    border-radius: 3px;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.left-img{
+    margin-top: 7vw;
+    background-image: url(https://images.unsplash.com/photo-1531370114630-ea11cde63962?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vZGVscyUyMGRhbmNpbW5nfGVufDB8fDB8fHww);
+}
+
+.img1{
+    /* background-position: top; */
+    background-image: url(https://plus.unsplash.com/premium_photo-1661677892686-d6d64dab3a2b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8);
+}
+
+.img2{
+    background-image: url(https://plus.unsplash.com/premium_photo-1682146720153-4d5bdf56f143?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNob3J0JTIwZmlsbXN8ZW58MHx8MHx8fDA%3D);
+}
+
+#card2{
+    top: 60%;
+    left: 40%;
+}
+
+#card3{
+    bottom: 65%;
+}
+
+#card4{
+    left: 11vw;
+}
+
+.extra{
+    width:25vw;
+    padding:0 3vw 0 0 ;
+    /* background-color: red; */
+    position: absolute;
+    top: 230%;
+}
+
+.page3-text{
+    display: flex;
+    align-items: flex-end;
+}
+
+.left-text h1{
+    margin-bottom: 0;
+}
+
+.right-buttons{
+    margin-left: -5vw;
+}
+
+.right-buttons button{
+    margin-right: -2%;
+    padding: .6vmax 5vmax .6vmax 2vmax;
+    position: relative;
+    z-index: 22;
+}
+
+.rightbtn{
+    padding:.6vmax 2vmax .6vmax 5vmax !important;
+}
+
+.black-box{
+    width: 100%;
+    height:100vh ;
+    background-color: #19191A;
+    transform: translateY(-3%);
+    padding-left: 15vw;
+    /* position: relative; */
+    /* z-index: -1; */
+    /* margin-top: 22vh; width: ; */
+}
+
+.box1{
+    padding: .5vw;
+    top: 4vw;
+    left: 15vw;
+}
+
+.box2{
+    padding: .5vw;
+    top: 4vw;
+    left: 34vw;
+}
+
+.box3{
+    padding: .5vw;
+    top: 4vw;
+    left: 52vw;
+}
+
+.box-text button{
+    margin-top: 45vh;
+    margin-left: 0;
+}
+
+.line{
+    width: 50vw;
+    height: 1px;
+    background-color: #B89D87;
+    margin-top: 5vw;
+}
+
+.black-box>p{
+    margin: 4vw 0 1vw 20vw;
+}
+
+.black-box>h2{
+    color: #FEFFFF;
+    margin: 1vw 9vw;
+    font-weight: 500;
+}
+
+.news button{
+margin-left: 2vw;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    padding: 1vmax 16vmax .6vmax 0;
+    font-family: 'Playpen Sans', cursive;
+    border-bottom: 2px solid rgb(165, 163, 163);
+    margin-left: 6vw;
+}
+
+.black-box> button{
+    margin: 5vw 21vw;
+}
+
+footer{
+    padding: 4vw 15vw 6vw 15vw !important;
+}
+
+.footer p{
+    margin: 0;
+    font-size: .3vw;
+}
+
